@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2019-03-06 14:38:10.
+    * Generated on 2019-03-06 14:48:35.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -57,6 +57,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -210,6 +211,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
         '' => '@',
@@ -258,6 +260,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -411,6 +414,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
         '' => '@',
@@ -459,6 +463,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -612,6 +617,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\App::make(0), map([
         '' => '@',
@@ -660,6 +666,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -813,6 +820,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\App::makeWith(0), map([
         '' => '@',
@@ -861,6 +869,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -1014,6 +1023,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\app(0), map([
         '' => '@',
@@ -1062,6 +1072,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -1215,6 +1226,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\resolve(0), map([
         '' => '@',
@@ -1263,6 +1275,7 @@ namespace PHPSTORM_META {
         'Laravel\Socialite\Contracts\Factory' => \Laravel\Socialite\SocialiteManager::class,
         'Overtrue\EasySms\EasySms' => \Overtrue\EasySms\EasySms::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Zend\Diactoros\ServerRequest::class,
         'SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface' => \SocialiteProviders\Manager\Helpers\ConfigRetriever::class,
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
@@ -1416,6 +1429,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
 
     override(\Illuminate\Support\Arr::add(0), type(0));
