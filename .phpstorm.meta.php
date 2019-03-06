@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2019-03-06 14:48:35.
+    * Generated on 2019-03-06 15:29:33.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -211,6 +211,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
@@ -414,6 +415,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
@@ -617,6 +619,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\App::make(0), map([
@@ -820,6 +823,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\App::makeWith(0), map([
@@ -1023,6 +1027,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\app(0), map([
@@ -1226,6 +1231,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
     override(\resolve(0), map([
@@ -1429,6 +1435,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
+        'wechat.mini_program.default' => \EasyWeChat\MiniProgram\Application::class,
         'wechat.official_account.default' => \EasyWeChat\OfficialAccount\Application::class,
     ]));
 
